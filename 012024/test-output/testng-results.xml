@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-20T15:27:38Z" name="Default suite" finished-at="2024-01-20T15:27:43Z" duration-ms="5508">
+  <suite started-at="2024-02-10T17:19:31Z" name="Default suite" finished-at="2024-02-10T17:19:33Z" duration-ms="1776">
     <groups>
     </groups>
-    <test started-at="2024-01-20T15:27:38Z" name="Default test" finished-at="2024-01-20T15:27:43Z" duration-ms="5508">
-      <class name="prueba.pruebaTest">
-        <test-method signature="f()[pri:0, instance:prueba.pruebaTest@1b75c2e3]" started-at="2024-01-20T07:27:38Z" name="f" finished-at="2024-01-20T07:27:43Z" duration-ms="5479" status="PASS">
+    <test started-at="2024-02-10T17:19:31Z" name="Default test" finished-at="2024-02-10T17:19:33Z" duration-ms="1776">
+      <class name="loginTestCases.TC01_Login">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC01_Login@7b4acdc2]" started-at="2024-02-10T09:19:31Z" name="startWebDriver" finished-at="2024-02-10T09:19:32Z" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- prueba.pruebaTest -->
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC01()[pri:0, instance:loginTestCases.TC01_Login@7b4acdc2]" started-at="2024-02-10T09:19:32Z" name="TC01" finished-at="2024-02-10T09:19:32Z" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC01_Login@7b4acdc2]" started-at="2024-02-10T09:19:32Z" name="closeDriver" finished-at="2024-02-10T09:19:33Z" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTestCases.TC01_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
