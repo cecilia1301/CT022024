@@ -20,6 +20,8 @@ public class LoginPage {
 	private WebElement passwordTxt;
 	@FindBy(name = "login-button")
 	private WebElement btnLogin;
+	@FindBy(xpath = "//*[@data-test = 'error']")
+	private WebElement lockError;
 	
 	//Methods LoginPage
 	public void login(String user, String pwd) {
@@ -27,6 +29,11 @@ public class LoginPage {
 		WrapClass.sendKeys(passwordTxt, pwd);
 		WrapClass.click(btnLogin);
 	
+	}
+	
+	public boolean validateLockError () {
+		boolean errorDisplayed = WrapClass.getText(lockError).contains("Sorry, this user has been locked out");
+		return errorDisplayed;
 	}
 
 }

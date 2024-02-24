@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="seleniumPrac.Soft_Assert">
+      <class name="loginTestCases.TC06_LoginJsonData">
         <methods>
-          <include name="f"/>
+          <include name="closeDriver"/>
+          <include name="TC06"/>
+          <include name="startWebDriver"/>
         </methods>
-      </class> <!-- seleniumPrac.Soft_Assert -->
+      </class> <!-- loginTestCases.TC06_LoginJsonData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

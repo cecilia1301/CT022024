@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-10T17:19:31Z" name="Default suite" finished-at="2024-02-10T17:19:33Z" duration-ms="1776">
+  <suite started-at="2024-02-24T16:00:18Z" name="Default suite" finished-at="2024-02-24T16:00:21Z" duration-ms="3279">
     <groups>
     </groups>
-    <test started-at="2024-02-10T17:19:31Z" name="Default test" finished-at="2024-02-10T17:19:33Z" duration-ms="1776">
-      <class name="loginTestCases.TC01_Login">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC01_Login@7b4acdc2]" started-at="2024-02-10T09:19:31Z" name="startWebDriver" finished-at="2024-02-10T09:19:32Z" duration-ms="662" status="PASS">
+    <test started-at="2024-02-24T16:00:18Z" name="Default test" finished-at="2024-02-24T16:00:21Z" duration-ms="3279">
+      <class name="loginTestCases.TC06_LoginJsonData">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC06_LoginJsonData@77134e08]" started-at="2024-02-24T08:00:18Z" name="startWebDriver" finished-at="2024-02-24T08:00:18Z" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC01()[pri:0, instance:loginTestCases.TC01_Login@7b4acdc2]" started-at="2024-02-10T09:19:32Z" name="TC01" finished-at="2024-02-10T09:19:32Z" duration-ms="530" status="PASS">
+        <test-method signature="TC06()[pri:0, instance:loginTestCases.TC06_LoginJsonData@77134e08]" started-at="2024-02-24T08:00:19Z" name="TC06" finished-at="2024-02-24T08:00:20Z" duration-ms="1647" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC01_Login@7b4acdc2]" started-at="2024-02-10T09:19:32Z" name="closeDriver" finished-at="2024-02-10T09:19:33Z" duration-ms="538" status="PASS">
+        </test-method> <!-- TC06 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC06_LoginJsonData@77134e08]" started-at="2024-02-24T08:00:20Z" name="closeDriver" finished-at="2024-02-24T08:00:21Z" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- loginTestCases.TC01_Login -->
+      </class> <!-- loginTestCases.TC06_LoginJsonData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
