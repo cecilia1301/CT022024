@@ -22,7 +22,7 @@ public class TC01_Samples {
 	public void login() throws InterruptedException {
 		GlobalVariables.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		loginPage.login(GlobalVariables.USER, GlobalVariables.PASSWORD);
-		samplesPage.openSamples();//hola
+		samplesPage.openSamples();//holaaa
 	}
 
 	  @BeforeMethod
